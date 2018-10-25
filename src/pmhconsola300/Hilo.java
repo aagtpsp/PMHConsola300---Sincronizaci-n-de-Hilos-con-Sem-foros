@@ -16,7 +16,7 @@ public class Hilo extends Thread {
     /**
      * Constructor que pèrmite inicializar el hilo con el semáforo que le 
      * permite o bloquea su ejecución
-     * @param s semáforo que permite o bloquea la ejecución del hilo 
+     * @param s Semáforo que permite o bloquea la ejecución del hilo 
     */
     public Hilo(Semaphore s) {
         this.s = s;
@@ -24,8 +24,7 @@ public class Hilo extends Thread {
     
     
     /**
-     * Método que implementa el comportamiento del hilo. Muestra el nombre del
-     * hilo y el estado del semáforoque permite o bloquea la ejecución del hilo
+     * Método que implementa el comportamiento del hilo
     */
     @Override
     public void run() {
