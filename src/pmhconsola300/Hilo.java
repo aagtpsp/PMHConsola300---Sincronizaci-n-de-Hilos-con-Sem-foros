@@ -7,7 +7,7 @@ import java.util.concurrent.Semaphore;
  * que permite o bloquea su ejecución
  * @author Ignacio Fontecha Hernández
  * @version 1.0
- * @since PSP 1.0
+ * @since PSP 3.0
 */
 public class Hilo extends Thread {
 
